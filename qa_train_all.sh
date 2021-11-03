@@ -11,7 +11,7 @@ do
         ModelName=$(basename "$model")
 
         echo ${ModelName}
-       	python -u "/tmp/pycharm_project_25/run_qa.py"  \
+       	python -u "/home/nlp/shaked571/ParaShoot/run_qa.py"  \
        	--train_file "/home/nlp/shaked571/ParaShoot/data/train.json" \
         --validation_file "/home/nlp/shaked571/ParaShoot/data/dev.json" \
         --test_file "/home/nlp/shaked571/ParaShoot/data/test.json" \
