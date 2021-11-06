@@ -1,7 +1,7 @@
 
 # Declare an array of string with type
 echo "strat"
-declare -a models=("/home/nlp/shaked571/ParaShoot/alephbert-base" "bert-base-multilingual-cased" "avichr/heBER")
+declare -a models=("/home/nlp/shaked571/ParaShoot/alephbert-base" "bert-base-multilingual-cased" "avichr/heBERT")
 for i in 1 2 3 4 5
 do
 	for model in "${models[@]}";
