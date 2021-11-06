@@ -7,10 +7,10 @@ do
 	for model in "${models[@]}";
 	do
        	echo "Output:"
-       	echo "model: ${model}"
+       	echo "model nameo r path: ${model}"
         ModelName=$(basename "$model")
 
-        echo ${ModelName}
+        echo "Model Name: ${ModelName}"
        	python -u "/home/nlp/shaked571/ParaShoot/run_qa.py"  \
        	--train_file "/home/nlp/shaked571/ParaShoot/data/train.json" \
         --validation_file "/home/nlp/shaked571/ParaShoot/data/dev.json" \
