@@ -16,7 +16,7 @@ do
         --validation_file "/home/nlp/shaked571/ParaShoot/data/dev.json" \
         --test_file "/home/nlp/shaked571/ParaShoot/data/test.json" \
         --model_name_or_path "${model}" \
-        --output_dir "/home/nlp/shaked571/ParaShoot/${ModelName}/${i}" \
+        --output_dir "/home/nlp/shaked571/ParaShoot/output/${ModelName}/${i}" \
         --max_answer_length 50 \
         --version_2_with_negative false \
         --num_train_epochs 15 \
